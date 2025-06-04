@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2024 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,6 +23,9 @@ DEVICE_PATH := device/samsung/f62
 
 ## Display
 TARGET_SCREEN_DENSITY := 450
+
+## Fingerprint
+TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
 
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9820-f62_defconfig
