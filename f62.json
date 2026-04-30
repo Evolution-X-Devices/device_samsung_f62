@@ -1,0 +1,21 @@
+[
+  {
+    "device": "f62",
+    "maintainer": "Achille (0xSharkBoy)",
+    "github": "0xsharkboy",
+    "status": "active",
+    "firmware": {
+      "required": false
+    },
+    "ci": {
+      "enabled": true,
+      "schedule": "biweekly",
+      "build_target": "user",
+      "build_type": "both"
+    },
+    "installation_images": {
+      "bka": ["recovery"],
+      "bka-vanilla": ["recovery"]
+    }
+  }
+]
